@@ -13,3 +13,4 @@ RUN mv ./kubectl /usr/local/bin/kubectl
 # add pip and packages
 RUN apk add --no-cache --update py-pip
 RUN pip3 install requests mysql-connector-python urllib3 wcwidth tabulate
+RUN mkdir /ansible-test/
